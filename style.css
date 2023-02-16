@@ -109,3 +109,38 @@ p{
     padding-left: 4rem;
     display: flex;
 }
+
+/*media queries*/
+@media(max-width:768px){
+    .row1 {
+        display:flex !important;
+        flex-direction: column;
+    } 
+    .column1 {
+       width: 100% !important;
+    }
+    .column2 {
+       width: 100% !important;
+       display: flex !important;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+    }
+    .row2 {
+       padding-top: 2rem !important;
+       display: flex !important;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-content: center;
+       justify-content: center;
+       align-items: center;
+    }
+    
+ 
+ .columnbtn{
+    padding-left: 0 !important;
+ }
+ }
+  
