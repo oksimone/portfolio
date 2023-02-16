@@ -1,3 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Cutive+Mono|Fjalla+One|Quicksand|Playfair+Display|Open+Sans|Rock+Salt|VT323|Cedarville+Cursive|Permanent+Marker|Nothing+You+Could+Do|Caveat:400,300);
+
 body{
     background-color: #FAF9F6;
+}
+
+h1{
+    font-family:'Oswald', 'Fjalla One', serif;
+    text-align: center;
+    font-size: 57px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 9px;
+    margin-bottom: 50px;
+}
+
+p{
+        font-family: 'Quicksand',  sans-serif;
+        text-align: middle;
+        font-size: 15px;
+        color: #4f4f4f;
+        margin-bottom: -10px;
+        padding-top: 70px;
+        font-weight: bold;
+        letter-spacing: 5px;
 }
