@@ -166,3 +166,61 @@ span.navbar-text {
     padding-left: 7rem !important;
     font-family: 'Quicksand', sans-serif;
 }
+
+/*-------------cute cards css-----------------*/
+.cardcontain{
+    padding-top: 2rem!important;
+}
+/*card one details*/
+.cardone {
+    background: url('marialaura-gionfriddo-II3Vo7MJ9Z0-unsplash.jpg');
+    height: 500px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    width: 50% !important;
+    border-radius: 180px !important;
+    margin: 0 auto !important;
+}
+.innercard1{
+    color: #fff !important;
+    padding: 50px !important;
+    width: 80% !important;
+    backdrop-filter: blur(10px);
+    position: relative;
+    top: 79px;
+    font-size: 2rem!important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+p{
+    font-size:16px;
+    display: flex !important;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px !important;
+}
+
+.cardone:hover {
+    filter: drop-shadow(4px 23px 10px #b7b7a4)
+ }
+ /*card one details*/
+
+
+.cardy1{
+width:100% !important;
+display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
