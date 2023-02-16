@@ -143,4 +143,7 @@ p{
     padding-left: 0 !important;
  }
  }
-  
+ .column2 img {
+    width: 100%;
+    max-width: 250px;
+} 
