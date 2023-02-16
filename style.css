@@ -179,7 +179,7 @@ span.navbar-text {
     background-size: cover !important;
     width: 50% !important;
     border-radius: 180px !important;
-    margin: 0 auto !important;
+    /*margin: 0 auto !important;*/
 }
 .innercard1{
     color: #fff !important;
@@ -223,4 +223,13 @@ display: flex !important;
     align-content: center;
     justify-content: center;
     align-items: center;
+padding-left: 2rem !important;
+}
+.innercard1 p {
+    color: #fff !important;
+}
+@media(max-width:1200px){
+    .innercard1 {
+        padding: 0!important;
+    }
 }
