@@ -7,20 +7,36 @@ body{
 h1{
     font-family:'Oswald', 'Fjalla One', serif;
     text-align: center;
-    font-size: 57px;
+    font-size: 2rem;
     color: black;
     font-weight: bold;
-    letter-spacing: 9px;
-    margin-bottom: 50px;
+    letter-spacing: 1px;
+    /*margin-bottom: 50px;*/
 }
 
 p{
         font-family: 'Quicksand',  sans-serif;
-        text-align: middle;
+        text-align: center;
         font-size: 15px;
         color: #4f4f4f;
-        margin-bottom: -10px;
-        padding-top: 70px;
+        /*margin-bottom: -10px;
+        padding-top: 70px;*/
         font-weight: bold;
-        letter-spacing: 5px;
+        letter-spacing: 1px;
+}
+
+/*first row on landing page*/
+.row1 {
+    width: 100% !important;
+    display: flex !important;
+    padding: 2rem !important;
+}
+
+.column1 {
+    width: 70%;
+    padding: 2rem;
+}
+
+.column2 {
+    width: 30% !important;
 }
