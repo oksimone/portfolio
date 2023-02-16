@@ -147,3 +147,22 @@ p{
     width: 100%;
     max-width: 250px;
 } 
+
+/*third row*/
+.row3 {
+    width: 100% !important;
+    display: flex !important;
+    padding: 2rem 2em 0rem !important;
+}
+
+.columnproject {
+    padding: 2rem;
+}
+
+/*nav*/
+span.navbar-text {
+    color: #4f4f4f !important;
+    font-weight: bold;
+    padding-left: 7rem !important;
+    font-family: 'Quicksand', sans-serif;
+}
