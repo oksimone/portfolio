@@ -41,6 +41,14 @@ p{
     width: 30% !important;
 }
 
+.column2 img {
+    box-shadow: rgba(44, 30, 7, 0.4) 5px 5px,
+        rgba(44, 30, 7, 0.3) 10px 10px,
+        rgba(44, 30, 7, 0.2) 15px 15px,
+        rgba(44, 30, 7, 0.1) 20px 20px,
+        rgba(244, 30, 7, 0.05) 25px 25px;
+}
+
 
 /* cool btn */
 .button-56 {
